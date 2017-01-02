@@ -1,0 +1,8 @@
+parameters:
+    acreat_realestate.breadcrumb.class: Drupal\acreat_realestate\Controller\BreadcrumbBuild
+
+services:
+  acreat_realestate.breadcrumb:
+    class: Drupal\acreat_realestate\Controller\BreadcrumbBuild
+    tags:
+      - { name: breadcrumb_builder, priority: 100 }

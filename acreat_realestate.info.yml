@@ -1,0 +1,9 @@
+name: Acreat Real Estate
+description: Real Estate extension by Acreat
+package: Acreat Web Technologies
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:acreat_helper

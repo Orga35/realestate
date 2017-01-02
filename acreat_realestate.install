@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @see hook_install()
+ * https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_install/8.2.x
+ */
+function acreat_realestate_install() {
+
+}
+
+
+/**
+ * @see hook_uninstall()
+ * https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Extension%21module.api.php/function/hook_uninstall/8.2.x
+ */
+function acreat_realestate_uninstall() {
+
+}

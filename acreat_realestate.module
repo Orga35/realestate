@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ */
+function acreat_realestate_theme($existing, $type, $theme, $path) {
+    $items = array();
+    
+    return $items;
+}
