@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.heater
+    - node.type.realestate
+id: node.realestate.heater
+field_name: heater
+entity_type: node
+bundle: realestate
+label: Heater
+description: 'Information about the heating system'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.garages
+    - node.type.realestate
+id: node.realestate.garages
+field_name: garages
+entity_type: node
+bundle: realestate
+label: Garages
+description: 'Number of garages (1, 2, 3...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

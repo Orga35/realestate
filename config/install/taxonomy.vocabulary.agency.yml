@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Agency'
+vid: agency
+description: 'Real estate agency'
+hierarchy: 0
+weight: 0

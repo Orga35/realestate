@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.fees
+    - node.type.realestate
+id: node.realestate.fees
+field_name: fees
+entity_type: node
+bundle: realestate
+label: Agency fees
+description: 'Agency fees (200, 1700...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: float

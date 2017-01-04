@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.kitchen
+    - node.type.realestate
+id: node.realestate.kitchen
+field_name: kitchen
+entity_type: node
+bundle: realestate
+label: Kitchen
+description: 'Information about the kitchen'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

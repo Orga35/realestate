@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.ggd
+    - node.type.realestate
+  module:
+    - options
+id: node.realestate.ggd
+field_name: ggd
+entity_type: node
+bundle: realestate
+label: 'Greenhouse Gas Diagnostic'
+description: 'Results of the Greenhouse Gas Diagnostic'
+required: true
+translatable: false
+default_value:
+  -
+    value: z
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.facilities
+    - node.type.realestate
+  module:
+    - options
+id: node.realestate.facilities
+field_name: facilities
+entity_type: node
+bundle: realestate
+label: Facilities
+description: 'Facilities of the property'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

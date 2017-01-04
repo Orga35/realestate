@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Property type'
+vid: property_type
+description: 'Real estate property types'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.surface
+    - node.type.realestate
+id: node.realestate.surface
+field_name: surface
+entity_type: node
+bundle: realestate
+label: Surface
+description: 'Surface of the property (115, 240...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: m²
+field_type: float

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.charges
+    - node.type.realestate
+id: node.realestate.charges
+field_name: charges
+entity_type: node
+bundle: realestate
+label: Charges
+description: 'Charges of the property (200, 340...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: float

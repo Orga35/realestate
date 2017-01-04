@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.availability
+    - node.type.realestate
+  module:
+    - datetime
+id: node.realestate.availability
+field_name: availability
+entity_type: node
+bundle: realestate
+label: Availability
+description: 'Availability date of the property'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

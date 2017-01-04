@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.latitude
+    - node.type.realestate
+id: node.realestate.latitude
+field_name: latitude
+entity_type: node
+bundle: realestate
+label: Latitude
+description: 'Latitude of the property (ex: 48.105515)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

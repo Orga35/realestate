@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.fax
+    - taxonomy.vocabulary.agency
+id: taxonomy_term.agency.fax
+field_name: fax
+entity_type: taxonomy_term
+bundle: agency
+label: 'Fax number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

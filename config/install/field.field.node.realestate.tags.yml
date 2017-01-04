@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.tags
+    - node.type.realestate
+  module:
+    - options
+id: node.realestate.tags
+field_name: tags
+entity_type: node
+bundle: realestate
+label: Tags
+description: 'Highlight this ad with one/some tag(s)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

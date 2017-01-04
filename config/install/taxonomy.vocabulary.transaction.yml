@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Type of transaction'
+vid: transaction
+description: 'Real estate ads types of transaction'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.facilities
+field_name: facilities
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: swimming_pool
+      label: 'Swimming pool'
+    -
+      value: intercom
+      label: Intercom
+    -
+      value: watchman
+      label: Watchman
+    -
+      value: elevator
+      label: Elevator
+    -
+      value: disabled_access
+      label: 'Disabled access'
+    -
+      value: alarm
+      label: Alarm
+    -
+      value: air_conditioner
+      label: 'Air conditioner'
+    -
+      value: fireplace
+      label: Fireplace
+    -
+      value: wooden_floor
+      label: 'Wooden floor'
+    -
+      value: terrace
+      label: Terrace
+    -
+      value: balcony
+      label: Balcony
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

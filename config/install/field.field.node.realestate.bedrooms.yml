@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.bedrooms
+    - node.type.realestate
+id: node.realestate.bedrooms
+field_name: bedrooms
+entity_type: node
+bundle: realestate
+label: Bedrooms
+description: 'Number of bedrooms (1, 2, 3...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

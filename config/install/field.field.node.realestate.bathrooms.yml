@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.bathrooms
+    - node.type.realestate
+id: node.realestate.bathrooms
+field_name: bathrooms
+entity_type: node
+bundle: realestate
+label: Bathrooms
+description: 'Number of bathrooms (1, 2, 3...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

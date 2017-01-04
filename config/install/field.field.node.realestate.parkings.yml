@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.parkings
+    - node.type.realestate
+id: node.realestate.parkings
+field_name: parkings
+entity_type: node
+bundle: realestate
+label: Parkings
+description: 'Number of parkings (1, 2, 3...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

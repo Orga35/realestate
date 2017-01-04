@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.virtual_tour
+    - node.type.realestate
+id: node.realestate.virtual_tour
+field_name: virtual_tour
+entity_type: node
+bundle: realestate
+label: Virtual tour
+description: 'Virtual tour of the property'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

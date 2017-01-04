@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.city
+    - node.type.realestate
+id: node.realestate.city
+field_name: city
+entity_type: node
+bundle: realestate
+label: City
+description: 'City of the property (Rennes, Madrid...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

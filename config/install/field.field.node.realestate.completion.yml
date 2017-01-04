@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.completion
+    - node.type.realestate
+id: node.realestate.completion
+field_name: completion
+entity_type: node
+bundle: realestate
+label: Completion year
+description: 'Year of the completion of the property'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

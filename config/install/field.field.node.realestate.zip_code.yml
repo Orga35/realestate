@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.zip_code
+    - node.type.realestate
+id: node.realestate.zip_code
+field_name: zip_code
+entity_type: node
+bundle: realestate
+label: Zip code
+description: 'Zip code of the property (35000, 44800)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

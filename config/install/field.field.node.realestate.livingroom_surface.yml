@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.livingroom_surface
+    - node.type.realestate
+id: node.realestate.livingroom_surface
+field_name: livingroom_surface
+entity_type: node
+bundle: realestate
+label: Living room surface
+description: 'Surface of the living room (35, 57...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: m²
+field_type: float

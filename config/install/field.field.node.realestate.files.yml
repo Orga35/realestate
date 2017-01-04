@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.files
+    - node.type.realestate
+  module:
+    - file
+id: node.realestate.files
+field_name: files
+entity_type: node
+bundle: realestate
+label: Files
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'realestate/files/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx xls pdf'
+  max_filesize: '2 Mo'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

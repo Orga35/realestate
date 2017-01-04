@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.reference
+    - node.type.realestate
+id: node.realestate.reference
+field_name: reference
+entity_type: node
+bundle: realestate
+label: Reference
+description: 'Reference (A001, M34, G76DN-01...)'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.housing_taxes
+    - node.type.realestate
+id: node.realestate.housing_taxes
+field_name: housing_taxes
+entity_type: node
+bundle: realestate
+label: Housing taxes
+description: 'Housing taxes (650, 800...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: float

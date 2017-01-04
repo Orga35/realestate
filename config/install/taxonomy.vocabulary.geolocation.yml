@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Geolocation'
+vid: geolocation
+description: 'Real estate property geolocations'
+hierarchy: 0
+weight: 0

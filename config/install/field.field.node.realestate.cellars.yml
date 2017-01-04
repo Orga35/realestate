@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.cellars
+    - node.type.realestate
+id: node.realestate.cellars
+field_name: cellars
+entity_type: node
+bundle: realestate
+label: Cellars
+description: 'Number of cellars (1, 2, 3...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

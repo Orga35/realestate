@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.epd
+    - node.type.realestate
+  module:
+    - options
+id: node.realestate.epd
+field_name: epd
+entity_type: node
+bundle: realestate
+label: 'Energy Performance Diagnostic'
+description: 'Results of the Energy Performance Diagnostic'
+required: true
+translatable: false
+default_value:
+  -
+    value: z
+default_value_callback: ''
+settings: {  }
+field_type: list_string

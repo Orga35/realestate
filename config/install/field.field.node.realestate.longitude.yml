@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.longitude
+    - node.type.realestate
+id: node.realestate.longitude
+field_name: longitude
+entity_type: node
+bundle: realestate
+label: Longitude
+description: 'Longitude of the property (ex: -1.683088)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

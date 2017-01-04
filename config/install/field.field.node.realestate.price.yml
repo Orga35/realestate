@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.price
+    - node.type.realestate
+id: node.realestate.price
+field_name: price
+entity_type: node
+bundle: realestate
+label: Price
+description: 'Price of the property (65000, 268000...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: €
+field_type: float

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.land_surface
+    - node.type.realestate
+id: node.realestate.land_surface
+field_name: land_surface
+entity_type: node
+bundle: realestate
+label: Land surface
+description: 'Surface of the property land (250, 1400...)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: m²
+field_type: float

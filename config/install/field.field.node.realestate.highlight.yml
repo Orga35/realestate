@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.highlight
+    - node.type.realestate
+id: node.realestate.highlight
+field_name: highlight
+entity_type: node
+bundle: realestate
+label: Highlight
+description: 'Highlight this ad ?'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean
